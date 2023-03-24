@@ -23,7 +23,7 @@ namespace lecture6
             cbxCountry.Items.Add("Jordan");
             cbxCountry.Items.Add("Egypt");
             cbxCountry.Items.Add("Syria");
-
+            dtpDateOfBirth.Value = DateTime.Now.AddYears(-18);
         }
     }
 }

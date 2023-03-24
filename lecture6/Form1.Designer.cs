@@ -28,88 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblStudentInformationForm = new System.Windows.Forms.Label();
             this.lblStudentID = new System.Windows.Forms.Label();
             this.lblStudentName = new System.Windows.Forms.Label();
-            this.txtStudentName = new System.Windows.Forms.TextBox();
-            this.txtStudentID = new System.Windows.Forms.TextBox();
             this.lblDateOfBirth = new System.Windows.Forms.Label();
-            this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.lblCountry = new System.Windows.Forms.Label();
+            this.txtStudentID = new System.Windows.Forms.TextBox();
+            this.txtStudentName = new System.Windows.Forms.TextBox();
+            this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.cbxCountry = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblStudentInformationForm
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Student Information Form";
+            this.lblStudentInformationForm.AutoSize = true;
+            this.lblStudentInformationForm.Location = new System.Drawing.Point(31, 34);
+            this.lblStudentInformationForm.Name = "lblStudentInformationForm";
+            this.lblStudentInformationForm.Size = new System.Drawing.Size(125, 13);
+            this.lblStudentInformationForm.TabIndex = 0;
+            this.lblStudentInformationForm.Text = "Student Information Form";
             // 
             // lblStudentID
             // 
             this.lblStudentID.AutoSize = true;
-            this.lblStudentID.Location = new System.Drawing.Point(34, 77);
+            this.lblStudentID.Location = new System.Drawing.Point(31, 74);
             this.lblStudentID.Name = "lblStudentID";
             this.lblStudentID.Size = new System.Drawing.Size(61, 13);
             this.lblStudentID.TabIndex = 1;
-            this.lblStudentID.Text = "Student ID:";
+            this.lblStudentID.Text = "StudentID: ";
             // 
             // lblStudentName
             // 
             this.lblStudentName.AutoSize = true;
-            this.lblStudentName.Location = new System.Drawing.Point(34, 139);
+            this.lblStudentName.Location = new System.Drawing.Point(31, 121);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(78, 13);
             this.lblStudentName.TabIndex = 2;
             this.lblStudentName.Text = "Student Name:";
             // 
-            // txtStudentName
-            // 
-            this.txtStudentName.Location = new System.Drawing.Point(118, 136);
-            this.txtStudentName.Name = "txtStudentName";
-            this.txtStudentName.Size = new System.Drawing.Size(252, 20);
-            this.txtStudentName.TabIndex = 3;
-            // 
-            // txtStudentID
-            // 
-            this.txtStudentID.Enabled = false;
-            this.txtStudentID.Location = new System.Drawing.Point(118, 70);
-            this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(252, 20);
-            this.txtStudentID.TabIndex = 4;
-            // 
             // lblDateOfBirth
             // 
             this.lblDateOfBirth.AutoSize = true;
-            this.lblDateOfBirth.Location = new System.Drawing.Point(34, 193);
+            this.lblDateOfBirth.Location = new System.Drawing.Point(31, 175);
             this.lblDateOfBirth.Name = "lblDateOfBirth";
             this.lblDateOfBirth.Size = new System.Drawing.Size(30, 13);
-            this.lblDateOfBirth.TabIndex = 5;
+            this.lblDateOfBirth.TabIndex = 3;
             this.lblDateOfBirth.Text = "DOB";
-            // 
-            // dtpDateOfBirth
-            // 
-            this.dtpDateOfBirth.Location = new System.Drawing.Point(118, 192);
-            this.dtpDateOfBirth.Name = "dtpDateOfBirth";
-            this.dtpDateOfBirth.Size = new System.Drawing.Size(249, 20);
-            this.dtpDateOfBirth.TabIndex = 6;
             // 
             // lblCountry
             // 
             this.lblCountry.AutoSize = true;
-            this.lblCountry.Location = new System.Drawing.Point(34, 250);
+            this.lblCountry.Location = new System.Drawing.Point(31, 234);
             this.lblCountry.Name = "lblCountry";
             this.lblCountry.Size = new System.Drawing.Size(43, 13);
-            this.lblCountry.TabIndex = 7;
+            this.lblCountry.TabIndex = 4;
             this.lblCountry.Text = "Country";
+            // 
+            // txtStudentID
+            // 
+            this.txtStudentID.Enabled = false;
+            this.txtStudentID.Location = new System.Drawing.Point(130, 67);
+            this.txtStudentID.Name = "txtStudentID";
+            this.txtStudentID.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentID.TabIndex = 5;
+            // 
+            // txtStudentName
+            // 
+            this.txtStudentName.Location = new System.Drawing.Point(130, 114);
+            this.txtStudentName.Name = "txtStudentName";
+            this.txtStudentName.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentName.TabIndex = 6;
+            // 
+            // dtpDateOfBirth
+            // 
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(130, 175);
+            this.dtpDateOfBirth.Name = "dtpDateOfBirth";
+            this.dtpDateOfBirth.Size = new System.Drawing.Size(200, 20);
+            this.dtpDateOfBirth.TabIndex = 7;
             // 
             // cbxCountry
             // 
             this.cbxCountry.FormattingEnabled = true;
-            this.cbxCountry.Location = new System.Drawing.Point(118, 242);
+            this.cbxCountry.Location = new System.Drawing.Point(121, 235);
             this.cbxCountry.Name = "cbxCountry";
             this.cbxCountry.Size = new System.Drawing.Size(121, 21);
             this.cbxCountry.TabIndex = 8;
@@ -118,16 +118,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(521, 367);
+            this.ClientSize = new System.Drawing.Size(521, 425);
             this.Controls.Add(this.cbxCountry);
-            this.Controls.Add(this.lblCountry);
             this.Controls.Add(this.dtpDateOfBirth);
-            this.Controls.Add(this.lblDateOfBirth);
-            this.Controls.Add(this.txtStudentID);
             this.Controls.Add(this.txtStudentName);
+            this.Controls.Add(this.txtStudentID);
+            this.Controls.Add(this.lblCountry);
+            this.Controls.Add(this.lblDateOfBirth);
             this.Controls.Add(this.lblStudentName);
             this.Controls.Add(this.lblStudentID);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblStudentInformationForm);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -138,14 +138,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblStudentInformationForm;
         private System.Windows.Forms.Label lblStudentID;
         private System.Windows.Forms.Label lblStudentName;
-        private System.Windows.Forms.TextBox txtStudentName;
-        private System.Windows.Forms.TextBox txtStudentID;
         private System.Windows.Forms.Label lblDateOfBirth;
-        private System.Windows.Forms.DateTimePicker dtpDateOfBirth;
         private System.Windows.Forms.Label lblCountry;
+        private System.Windows.Forms.TextBox txtStudentID;
+        private System.Windows.Forms.TextBox txtStudentName;
+        private System.Windows.Forms.DateTimePicker dtpDateOfBirth;
         private System.Windows.Forms.ComboBox cbxCountry;
     }
 }
