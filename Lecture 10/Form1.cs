@@ -19,15 +19,16 @@ namespace Lecture_10
 
         private void btnCreatControls_Click(object sender, EventArgs e)
         {
+            pnlDynamicControls.Controls.Clear();
             int numberOfControls = int.Parse(txtNumberOfControls.Text);
             String typeOfControls = cbxControlType.Text;
 
             if (typeOfControls == "Button")
             {
-                // creat loop to creat collection of button
+                // create loop to create collection of button
                 for (int i = 0; i < numberOfControls; i++)
                 {
-                    // write code to creat single button dynamically
+                    // write code to create single button dynamically
                     Button newcontrol = new Button();
                     newcontrol.Name = "btnDynamicButton" + (i + 1);
                     newcontrol.Text = "Dynamic Button" + (i + 1);
@@ -39,22 +40,21 @@ namespace Lecture_10
             }
             else if (typeOfControls == "TextBox")
             {
-                // creat loop to creat collection of TextBox
+                // creat loop to create collection of TextBox
                 for (int i = 0; i < numberOfControls; i++)
                 {
-                    // write code to creat single TextBox dynamically
+                    // write code to create single TextBox dynamically
                     TextBox newcontrol = new TextBox();
                     newcontrol.Name = "txtDynamicTextBox " + (i + 1);
                     newcontrol.Text = "Dynamic TextBox " + (i + 1);
                     newcontrol.Size = new Size(100, 40);
-                    newcontrol.Location = new Point(0, (i * 50));
-/*                    newbutton.BackColor = SystemColors.ActiveBorder;
-*/                    pnlDynamicControls.Controls.Add(newcontrol);
+                    newcontrol.Location = new Point(0, (i * 30));
+                    pnlDynamicControls.Controls.Add(newcontrol);
                 }
             }
             else
             {
-                // creat loop to creat collection of label
+                // creat loop to create collection of label
                 for (int i = 0; i < numberOfControls; i++)
                 {
                     // write code to creat single label dynamically
@@ -63,12 +63,13 @@ namespace Lecture_10
                     newcontrol.Text = "Dynamic label" + (i + 1);
                     newcontrol.Size = new Size(100, 20);
                     newcontrol.Location = new Point(0, (i * 30));
-                    newcontrol.BackColor = System.Drawing.Color.Gold;
                     pnlDynamicControls.Controls.Add(newcontrol);
                 }
             }
             
             
         }
+
+       
     }
 }
