@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture _8", "WindowsFormsA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_9", "Lecture_9\Lecture_9.csproj", "{B8B30ABD-186B-4E41-9964-838E306EFBA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 10", "Lecture 10\Lecture 10.csproj", "{4D2ABB14-2832-46BD-948D-82F4CD57E899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B8B30ABD-186B-4E41-9964-838E306EFBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B30ABD-186B-4E41-9964-838E306EFBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B30ABD-186B-4E41-9964-838E306EFBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2ABB14-2832-46BD-948D-82F4CD57E899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2ABB14-2832-46BD-948D-82F4CD57E899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2ABB14-2832-46BD-948D-82F4CD57E899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2ABB14-2832-46BD-948D-82F4CD57E899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
