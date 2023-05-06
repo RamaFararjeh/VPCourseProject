@@ -122,7 +122,7 @@
             // 
             // txtStudentName
             // 
-            this.txtStudentName.Location = new System.Drawing.Point(139, 55);
+            this.txtStudentName.Location = new System.Drawing.Point(139, 59);
             this.txtStudentName.Name = "txtStudentName";
             this.txtStudentName.Size = new System.Drawing.Size(178, 20);
             this.txtStudentName.TabIndex = 4;
@@ -130,7 +130,7 @@
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.Yellow;
-            this.btnUpdate.Location = new System.Drawing.Point(104, 111);
+            this.btnUpdate.Location = new System.Drawing.Point(103, 115);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 5;
@@ -140,7 +140,7 @@
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.Lime;
-            this.btnAdd.Location = new System.Drawing.Point(197, 111);
+            this.btnAdd.Location = new System.Drawing.Point(196, 115);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 6;
@@ -150,7 +150,7 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.Red;
-            this.btnDelete.Location = new System.Drawing.Point(287, 111);
+            this.btnDelete.Location = new System.Drawing.Point(286, 115);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 7;
