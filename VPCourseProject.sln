@@ -29,6 +29,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_16", "Lecture_16\Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 18", "Lecture 18\Lecture 18.csproj", "{CCDCBE1C-9C03-4677-90A4-C95B105D7115}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBaseSripts", "DataBaseSripts", "{0DECB0A7-5FF8-433E-8141-CE408BE0D884}"
+	ProjectSection(SolutionItems) = preProject
+		lecture_21.sql = lecture_21.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_21", "Lecture_21\Lecture_21.csproj", "{B147E2D3-CDE9-4EC0-8DC7-288EDD0E5C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +94,10 @@ Global
 		{CCDCBE1C-9C03-4677-90A4-C95B105D7115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCDCBE1C-9C03-4677-90A4-C95B105D7115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCDCBE1C-9C03-4677-90A4-C95B105D7115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B147E2D3-CDE9-4EC0-8DC7-288EDD0E5C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B147E2D3-CDE9-4EC0-8DC7-288EDD0E5C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B147E2D3-CDE9-4EC0-8DC7-288EDD0E5C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B147E2D3-CDE9-4EC0-8DC7-288EDD0E5C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
