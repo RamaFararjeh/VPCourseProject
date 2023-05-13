@@ -20,9 +20,9 @@ namespace Lecture_9
         private void btnCreatEmplyee_Click(object sender, EventArgs e)
         {
             Emplyee newEmployee = new Emplyee(int.Parse(txtEmplyeeID.Text), txtEmployeeName.Text, dtpDateOfBirth.Value);
-            /*newEmployee.Id = int.Parse(txtEmplyeeID.Text);
+            newEmployee.Id = int.Parse(txtEmplyeeID.Text);
             newEmployee.Name = txtEmployeeName.Text;
-            newEmployee.DateOfBirth = dtpDateOfBirth.Value;*/
+            newEmployee.DateOfBirth = dtpDateOfBirth.Value;
             MessageBox.Show("Emplyee ID :" + newEmployee.Id.ToString()+"\n"+
                 "Emplyee Name:"+newEmployee.Name +"\n"+
                 "Emplyee Date Of Birth :"+newEmployee.DateOfBirth.ToShortDateString());

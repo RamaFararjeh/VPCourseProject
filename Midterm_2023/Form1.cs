@@ -16,16 +16,18 @@ namespace Midterm_2023
         {
             InitializeComponent();
             Text = "Midterm";
+            lblPass.ForeColor =Color.Red;
         }
+        
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        /*private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
-        }
+            txtPass.ForeColor = Color.Red;
+        }*/
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Hi Rama");
+           /* MessageBox.Show("Hi Rama");*/
         }
     }
 }
